@@ -1,0 +1,28 @@
+---
+title: "Prueba_RMarkdown"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = T, cache = F)
+```
+
+# Titulo Principal de Prueba
+
+## Titulo Secundario
+
+### Y uno de tercer orden
+
+*Buenos días*
+
+<!--# Esto es para añadir comentarios -->
+
+```{r Hola}
+plot(cars)
+library(ggplot2)
+library(purrr)
+```
+
+```{r}
+plot(cars)
+```
